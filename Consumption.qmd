@@ -1,0 +1,25 @@
+# Consumption data
+
+![](images/paste-418FBE78.png){width="108"}
+
+A consumption model describes the amount of food consumed during a particular eating occasion (i.e., a serving) and/or the frequency of the consumption of these servings, or an average amount of food consumed per day. This amount may vary in time, between individuals, between the different population groups of interest and the considered exposure type.
+
+## The EFSA Comprehensive European Food Consumption Database
+
+### Scope
+
+The Comprehensive Food Consumption Database gathers information on food consumption across the EU member states. The database is dedicated to be used in risk assessments related to possible chemical and microbiological hazards. The database is also relevant for the assessment of nutrient intakes. The food classification system 'FoodEx2' is used to categorise all foods and beverages included in the Comprehensive Database.
+
+### Accessibility
+
+## FAO/WHO GIFT \| Global Individual Food consumption data Tool
+
+### Scope
+
+### Accessibility
+
+## **Food safety collaborative platform (FOSCOLLAB)**
+
+[WHO \| Food Safety Collaborative Platform](https://apps.who.int/foscollab/Download/DownloadConso)
+
+![](images/wip.png){width="256"}

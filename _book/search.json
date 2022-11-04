@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A guide for accessing relevant data and models for quantitative microbial risk assessment",
+    "section": "",
+    "text": "This document has been prepared in the context of the EJP-OH CARE (Cross-sectoral framework for quality Assurance Resources for countries in the European Union). This document is part of WP4 : Investigate, benchmark and improve the availability and the quality of the existing data relevant for risk assessment.\n\nThis project has received funding from the European Union’s Horizon 2020 research and innovation programme under Grant Agreement No 773830.\n\nTo learn more about CARE project visit https://onehealthejp.eu/jip-care/."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "graph TD\nQ[Risk question]\nH[Hazards]\nPM[Product/Matrix]\nP[Population group]\nDR[Dose-response model]\nPrM[Process model]\nCM[Consumption model]\nE[Exposure model]\nHM[Health metrics]\nR[Risk characterization model]\n\n\n\nsubgraph Hazard identification\nQ-->H\nQ-->PM\nQ-->P\nend\n\nsubgraph Exposure assessment\nH-->PrM\nPM-->PrM\nPM-->CM\nP-->CM\nPrM-->E\nCM-->E\nend\n\nsubgraph Hazard characteryzation\nH-->DR\nP-->DR\nend\n\nsubgraph Risk characteryzation\nH-->HM\nDR-->R\nHM-->R\nE-->R\nend\n\n\n\n\n\n\nFigure 1.1: Main stages of QMRA model\n\n\n\n\nIf the QMRA approach is well structured, the method used by the risk assessor can vary. One may adopt qualitative and/or quantitative method. It may consider determnisitic or stochastic\nThe QMRA approach can help to answer various questions. For examples, (Mota et al. 2022) identified the following objectives:\n\nevaluation of illness risk,\nassessment of interventions,\nsimple exposure assessment,\nor risk ranking.\n\nEach objective is associated to specific starting point (farm, food industry, retail,…), output (score or risk, mean annual risk, DALY,…) and data needs.\nOne of the main challenge is to identify the appropriate approach to tackle the risk question. In this context, EJP OH COHESIVE proposes a decision support tool to help risk assessor: COHESIVE Decision Support Tool. The tool helps to define the best approach according to the objective and time available.\nOnce the approach has been chosen, the main challenge is to gather data. Different types of data can be collected (microbial concentrations, daily consumption, etc.). The collected data should be fit for purpose, representative and allow a meaningful analysis (Haberbeck et al. 2018).\n\n\n\n\n\n\nObjective of this document\n\n\n\nOur goal is to provide an help to identify data/knowledge that risk assessors and data scientists need at the start of their projects.\n\n\n\n\n\n\n\n\nVersioning of the document\n\n\n\nThis is the first release (September 2022) of the “Guide for accessing relevant data and models for quantitative microbial risk assessment”. The document is uploaded in Zenodo, lastest relase can be find here: . This document will be maintained by authors according to the sustainability plan of CARE. All stakeholders, including students, researchers,risk assessment teams, are encouraged to use this document. This document is always a work in progress and everyone is encouraged to help us build something that is useful to the many.\n\n\n\n\n\n\nHaberbeck, Leticia Ungaretti, Carolina Plaza-Rodríguez, Virginie Desvignes, Paw Dalgaard, Moez Sanaa, Laurent Guillier, Maarten Nauta, and Matthias Filter. 2018. “Harmonized Terms, Concepts and Metadata for Microbiological Risk Assessment Models: The Basis for Knowledge Integration and Exchange.” Microbial Risk Analysis 10: 3–12. https://doi.org/https://doi.org/10.1016/j.mran.2018.06.001.\n\n\nKoutsoumanis, Konstantinos P, and Zafiro Aspridou. 2016. “Moving Towards a Risk-Based Food Safety Management.” Current Opinion in Food Science 12 (December): 36–41. https://doi.org/10.1016/j.cofs.2016.06.008.\n\n\nMicrobiological Risk Assessment  Guidelines for Food. 2021. FAO; WHO. https://doi.org/10.4060/cb5006en.\n\n\nMota, Juliana De Oliveira, Laurent Guillier, Henk Aarts, and Virginie Desvignes. 2022. “Deliverable D.4.1.3. Report on the survey related to the availability and quality of data used for risk assessment.” Zenodo. https://doi.org/10.5281/zenodo.5882651."
+  },
+  {
+    "objectID": "hazard_identification.html",
+    "href": "hazard_identification.html",
+    "title": "Hazard identification",
+    "section": "",
+    "text": "the microbiological hazard causing the adverse effect\nthe foods of interest\nthe population of interest\n\n\n\n\n\n\n\n\n\ngraph TD\n\nQ[Risk question]\n\nH[Hazards]\n\nPM[Product/Matrix]\n\nP[Population groups]\n\nPH[Public health]\n\nsubgraph Hazard identification\n\nQ-->H\n\nQ-->PM\n\nQ-->P\n\n\n\nend\n\n\n\n\n\n\nFigure 1: Components of hazard identification\n\n\n\n\nThe following chapters aims at identifying the data of interest for characterizing the pathogens contamination of foods and the population."
+  },
+  {
+    "objectID": "hazards.html",
+    "href": "hazards.html",
+    "title": "2  Hazards",
+    "section": "",
+    "text": "Food contamination can occur at all stages of the food chain and by various microorganisms including bacteria, viruses, molds, parasites, and unconventional agents. Among these microorganisms responsible for foodborne diseases, bacteria, viruses, and parasites are the most common. Definition of microbiological hazards in hazard identification is a key step. It involves to define the microbiological agents (Hazard) capable of causing adverse health effect considered by the risk assessment. The following sections describe the resources that provide formalized lists of microbiological hazards."
+  },
+  {
+    "objectID": "hazards.html#ssd",
+    "href": "hazards.html#ssd",
+    "title": "2  Hazards",
+    "section": "2.1 SSD",
+    "text": "2.1 SSD"
+  },
+  {
+    "objectID": "hazards.html#other-relevant-resources",
+    "href": "hazards.html#other-relevant-resources",
+    "title": "2  Hazards",
+    "section": "2.2 Other relevant resources",
+    "text": "2.2 Other relevant resources\n\n2.2.1 NCBI Taxon ontology\nThis ontology has been used to describe the hazard term of the\nThis ontology has been to defeine hazard categories in EJPOH ORION Health Surveillance Ontology dedicated to human and machine-readable knowledge model for surveillance (see https://w3id.org/hso)\n\n\n2.2.2 LPSN - List of Prokaryotic names with Standing in Nomenclature\n10.1099/ijsem.0.004332 https://lpsn.dsmz.de/\n\n\n2.2.3 The Cohesive information system\nThe EJP COHESIVE propose a demonstration on the tools to collect data related to the area of risk‐analysis, aims today at integrating also genomics data from human and veterinary domains involved in genomics-based surveillance. In this context, the COHESIVE Information System (CIS) has been created (Mangone et al. 2021) with separate instances of several Member States, in order to provide a proof of concept showing the advantages for surveillance and investigation of outbreaks. The CIS include a table related to information on the species of the microorganism.\n\n\n2.2.4 Ressources for antimicrobial resistance\nhttps://bitbucket.org/genomicepidemiology/resfinder_db/src/master/ ChEBI ontology CARD,\n\n\n2.2.5 QPS biological agents\nThe list of biological agents that are notified to EFSA in the context of a technical dossier to EFSA (for intentional use directly or as sources of food and feed additives, food enzymes and plant protection products for safety assessment), is kept updated every 6 months. The Updated list of QPS-recommended biological agents for safety risk assessments carried out by EFSA is available at https://doi.org/10.5281/zenodo.1146566.\n\n\n\n\nMangone, Iolanda, Nicolas Radomski, Adriano Di Pasquale, Andrea Santurbano, Paolo Calistri, Cesare Cammà, and Kitty Maassen. 2021. “Refinement of the COHESIVE Information System towards a unified ontology of food terms for the public health organizations (COHESIVE).” Zenodo. https://doi.org/10.5281/zenodo.5482422."
+  },
+  {
+    "objectID": "foods.html#foodex2",
+    "href": "foods.html#foodex2",
+    "title": "3  Foods",
+    "section": "3.1 FoodEx2",
+    "text": "3.1 FoodEx2\n\n3.1.1 Scope\nIn 2015, EFSA developed a food classification and description system called FoodEx2 ((EFSA) 2015), which is used for its data exchange with Member States. This system describes a large number of individual foods, grouped into food groups and broader food categories, classified using a formal hierarchical parent-child relationship (ontology). Most of the food names are generic, allowing the user to classify several similar foods under one name attached to a unique code. Facets” can be used to add details about the characteristics of the food. The current version of FoodEX2 has eight hierarchies: six pre-selected domain-specific food hierarchies based on an intended target use (exposure, zoonosis, veterinary residue, etc.). There is also a complete hierarchy (“Master hierarchy”), for terminology management, and a general hierarchy oriented towards data capture (“Reporting hierarchy”). The latter has been used to select the food categories of interest, providing a common repository of food descriptions. It comprises 10,366 terms divided into three broad categories, “Food”, “Feed” and “Non-food matrices”, up to 10 levels deep (hierarchy levels H1 to H10).\nFoodEx2 also offers facets, which are used to add more detail to the information provided by the selected term in the food list. These facets are collections of additional terms describing the properties and aspects of the food from different angles. Thus, it is possible to provide information on the source of the food, the preservation process, the intended use, etc.\n\n\n3.1.2 Accessibility\nLatest Foodex2 version is available in Efsa knowledge junction in Zenodo (Authority 2022). The list of terms can be accessed by exploring the FOODEX.xlsx file or by using the catalogue browser. It’s is a Java-based application that allows to use and browse catalogues released by EFSA in the Data Collection Framework. The Food Standards Agency also provide an web-page allowing to navigate at the different levels of the FoodEx2 hierarchies: FSA_foodtype.\nAnother way to access FoodEx2 is to use the EFSA FoodEx2 Smart Coding Application. It can be accessed in the R4EU platform (users should register). The tool aims to simplify the coding process by making use of AI techniques. Starting from the food description given as input, the tool provides suggestion of complex FoodEx2 terms (combination of base term and facets). Figure 3.1 shows an example of use of EFSA-SCA.\n\n\n\nFigure 3.1: Example of use of the Smart Coding Application"
+  },
+  {
+    "objectID": "foods.html#ifsac-categorization-schema",
+    "href": "foods.html#ifsac-categorization-schema",
+    "title": "3  Foods",
+    "section": "3.2 IFSAC categorization schema",
+    "text": "3.2 IFSAC categorization schema\n\n3.2.1 Scope\nThe IFSAC food categorization scheme (Richardson et al. 2017) has a multilevel structure (up to five distinct levels) to which foods can be assigned. The first level of the hierarchy defines four food groups (aquatic animals, land animals, plants, and other). Food groups then include increasingly specific food categories that are further subdivided into more specific categories Figure 3.2. The nature of the subcategories are established based of the food source or the process. The IFASC results in a total of 78 food categories.\n\n\n\nFigure 3.2: Illustration of the IFSAC Food Categorization Scheme\n\n\n\n\n3.2.2 Accessibility\nThe IFASC is accessible online: IFASC_groups.\nSome adaptions of these scheme are available:\n\nin GenomegraphR tool (Sanaa et al. 2019)\nIFSAC+ categories have been recently proposed (Balkey et al. 2021). These categories are being used in ncbi see e.g. nbci_ex.\n\n\n\n\n\nAuthority, European Food Safety. 2022. “Harmonized Terminology for Scientific Research.” Zenodo. https://doi.org/10.5281/zenodo.5949025.\n\n\nBalkey, Maria, Michael Batz, Gopal Gopinath, Gurinder Gosal, Emma Griffiths, Heather Tate, and Ruth Timme. 2021. “Standardizing the Isolation Source Metadata for the Genomic Epidemiology of Foodborne Pathogens Using LexMapr.” IAFP 2021.\n\n\n(EFSA), European Food Safety Authority. 2015. “The Food Classification and Description System FoodEx 2 (Revision 2).” EFSA Supporting Publications 12 (5): 804E. https://doi.org/https://doi.org/10.2903/sp.efsa.2015.EN-804.\n\n\nRichardson, LaTonia Clay, Michael C Bazaco, Cary Chen Parker, Daniel Dewey-Mattia, Neal Golden, Karen Jones, Karl Klontz, Curtis Travis, Joanna Zablotsky Kufel, and Dana Cole. 2017. “An Updated Scheme for Categorizing Foods Implicated in Foodborne Disease Outbreaks: A Tri-Agency Collaboration.” Foodborne Pathogens and Disease 14 (12): 701–10.\n\n\nSanaa, Moez, Régis Pouillot, Francisco Garces Vega, Errol Strain, and Jane M Van Doren. 2019. “GenomeGraphR: A User-Friendly Open-Source Web Application for Foodborne Pathogen Whole Genome Sequencing Data Integration, Analysis, and Visualization.” PloS One 14 (2): e0213039."
+  },
+  {
+    "objectID": "contamination.html",
+    "href": "contamination.html",
+    "title": "4  Contamination data",
+    "section": "",
+    "text": "Investigations addressing the identification and quantification of biological hazards in foods surveyed at various stages in the farm-to-fork chain is essential for building QMRA models. These data are primarily intended to be used as input data of the exposure assessment module but they can also be used as way to validate some output of the modelling approach (e.g. data observed at retail level could be used to validate the output of a model simulating the contamination along the farm to fork framework)."
+  },
+  {
+    "objectID": "contamination.html#efsa-ecdc-zoonoses-report",
+    "href": "contamination.html#efsa-ecdc-zoonoses-report",
+    "title": "4  Contamination data",
+    "section": "4.1 EFSA-ECDC zoonoses report",
+    "text": "4.1 EFSA-ECDC zoonoses report\n\n4.1.1 Scope\nThe European Union (EU) has been collecting for more than 20 years data on zoonoses that integrate their occurrence in food, animals and feed (together with the information from human cases see) . The data collection system also covers antimicrobial resistance. Member states (MS) and non-Member State (non-MS) European Free Trade Association (EFTA) countries submitted data a Data were submitted electronically to the EFSA zoonoses database, through EFSA’s Data Collection Framework (DCF) (European Food Safety Authority (EFSA), Amore, et al. 2022; European Food Safety Authority (EFSA), Boelaert, et al. 2022).\n\n\n4.1.2 Accessibility\nOverview tables (and or graphs) presenting all the countries that reported data during a five year time-frame are made available, with key summary statistics. These summary statistics only focus on official sampling. Thus they are taking into account other reported data:\n\nfrom industry own-control programmes,\ndata from suspect sampling, selective sampling,\nor data associated to outbreak or clinical investigations.\n\ninsert: https://zenodo.org/record/5761142#.YvTdGHZBy70 (how to get data from dashbord)"
+  },
+  {
+    "objectID": "contamination.html#pathogens-in-foods-database",
+    "href": "contamination.html#pathogens-in-foods-database",
+    "title": "4  Contamination data",
+    "section": "4.2 Pathogens-in-Foods database",
+    "text": "4.2 Pathogens-in-Foods database\n\n\n4.2.1 Scope\nPathogens-in-Foods (PIF) is a database constructed upon systematic literature searches of occurrence data (prevalence and enumeration) of important pathogenic agents (insert ref Sofia). The database considers:\n\nbacterial hazards: Bacillus cereus, Campylobacter spp., Clostridium perfringens, Listeria monocytogenes, Salmonella spp., Shiga toxin-producing Escherichia coli, Staphylococcus aureus, Yersinia enterocolitica\nparasites: Cryptosporidium spp., Giardia spp., Toxoplasma gondii,\nand viruses: Hepatitis A virus, Hepatitis E virus and Norovirus\n\nPresently (August 2022), the PIF database includes 1153 primary studies, with over 5200 bacteria, 200 virus, and 40 parasite entries spanning data published from 2000 on-wards to the present day. Systematic reviews are conducted periodically to ensure that new data is continuously added, and the database is kept up to date.\n\n\n4.2.2 Accessibility\nPIF is accessible through the main page at https://fsqa.esa.ipb.pt/. There are two different ways to access data. A Shiny app is provided in order to explore the database https://fsqa.esa.ipb.pt/shiny/apps/. PIF can be also accessed through the “Access System” (an email should be provided to log in).\nSeveral variables for exploring the database of contamination can be defined. In the first section the pathogen of interest, the nature of data (prevalence, enumeration) the food characteristics can be filtered (see Figure 4.1).\n\n\n\nFigure 4.1: PIF database searching criteria\n\n\nThrough advanced filters, further features such as country of food origin, StudyID, label, packaging status, sampling stage, method used, can be included in the search. The results can be presented as a table in the database interface or downloaded as CVS or JSON format files.\n\n\n\n\nEuropean Food Safety Authority (EFSA), Giusi Amore, Frank Boelaert, Davide Gibin, Alexandra Papanikolaou, Valentina Rizzi, and Anca-Violeta Stoicescu. 2022. “Zoonoses and foodborne outbreaks guidance for reporting 2021 data.” EFSA Supporting Publications 19 (1). https://doi.org/10.2903/sp.efsa.2022.EN-7131.\n\n\nEuropean Food Safety Authority (EFSA), Frank Boelaert, Davide Gibin, Alexandra Papanikolaou, Valentina Rizzi, and Anca-Violeta Stoicescu. 2022. “Prevalence sample-based guidance for reporting 2021 data.” EFSA Supporting Publications 19 (1). https://doi.org/10.2903/sp.efsa.2022.EN-7129."
+  },
+  {
+    "objectID": "public_health.html",
+    "href": "public_health.html",
+    "title": "5  Public health data",
+    "section": "",
+    "text": "The European Surveillance System (TESSy) is provided by ECDC in order to collect, analyse and distribute surveillance data on infectious diseases in Europe. The EU member States provide data according to the founding regulation of the ECDC (Regulation (EC) 851/2004). Surveillance data collected are mainly case-based and include demographic, clinical, epidemiological and laboratory information. They are reported annually or more regularly as needed for specific objectives, outcomes and resulting public health actions.\n\n\n\nTESSy is not publicly available. In order to consult it, it is necessary to send a specific request indicating the required metadata and assuring that the data will be destroyed after its use. The metadata dictionary is available in excel format https://www.ecdc.europa.eu/sites/default/files/documents/MetaDataSet_50%20%282022-09-30%29.xlsx.\nSince June 2021, The EpiPulse portal integrates TESSy with the five Epidemic Intelligence Information System (EPIS) platforms and the Threat Tracking Tool (TTT). The portal facilitates collection, analysis and dissemination of indicator- and event-based surveillance data on infectious diseases and associated health issues, including global epidemic intelligence, whole-genome sequencing, and health determinants."
+  },
+  {
+    "objectID": "public_health.html#surveillance-atlas-of-infectious-diseases",
+    "href": "public_health.html#surveillance-atlas-of-infectious-diseases",
+    "title": "5  Public health data",
+    "section": "5.2 Surveillance Atlas of Infectious Diseases",
+    "text": "5.2 Surveillance Atlas of Infectious Diseases\n\n5.2.1 Scope\nThe Surveillance Atlas of Infectious is an interactive tool that allow users to manipulate aggregate EU surveillance data from The European Surveillance System (TESSy) to produce a variety of tables and maps.\n\n\n5.2.2 Accessibility\nThe Surveillance Atlas of Infectious is accessible through the main page Surveillance Atlas of Infectious Diseases (europa.eu).\nSeveral infectious diseases are available in the atlas and for each of them, the user can choose the subpopulation, the indicator and the years. The user then has access to tables showing the distribution of the disease according to the chosen indicator by country, year and age and a European map showing the diseases distribution according to the chosen indicator (Figure 5.1).\n\n\n\nFigure 5.1: Surveillance Atlas of Infectious Diseases"
+  },
+  {
+    "objectID": "public_health.html#the-efsa-foodborne-outbreak-story-map",
+    "href": "public_health.html#the-efsa-foodborne-outbreak-story-map",
+    "title": "5  Public health data",
+    "section": "5.3 The EFSA foodborne outbreak story map",
+    "text": "5.3 The EFSA foodborne outbreak story map\n\n5.3.1 Scope\nThe EFSA FBO story map provides general information on foodborne outbreaks, their causative agents and implicated food vehicles. This tool is more dedicated to provide information than to share data. Yet, the tool can provide maps presenting the geographical distribution of the number of outbreaks across reporting EU countries. The users can generate also maps showing different outputs: human cases, hospitalisations and deaths.\n\n\n5.3.2 Accessibility"
+  },
+  {
+    "objectID": "public_health.html#the-efsa-dashboard-on-foodborne-outbreaks",
+    "href": "public_health.html#the-efsa-dashboard-on-foodborne-outbreaks",
+    "title": "5  Public health data",
+    "section": "5.4 The EFSA dashboard on foodborne outbreaks",
+    "text": "5.4 The EFSA dashboard on foodborne outbreaks\n\n5.4.1 Scope\nThe EFSA dashboard on foodborne outbreaks allows for searching data on foodborne outbreaks collected by EFSA from the EU Member States (and several other reporting countries). This reporting is carried out in the context of the Zoonoses Directive 2003/99/EC. The dashboard can display the FBO data interactively though graphs and maps. The main statistics can also be downloaded in the .csv format. A user guide describes the content and functionalities of the dashboard and provides step-by-step information to make full use of the tool.\n\n\n5.4.2 Accessibility"
+  },
+  {
+    "objectID": "public_health.html#ressources-available-in-member-states",
+    "href": "public_health.html#ressources-available-in-member-states",
+    "title": "5  Public health data",
+    "section": "5.5 Ressources available in Member states",
+    "text": "5.5 Ressources available in Member states\nThe information collected at European level is also reported by the EU Member States. Information available at national level can provide complementary information to that used at transnational level. The Table below lists the references to the data collected on the identified foodborne outbreaks (please do not hesitate to contact the authors of this report to provide missing or corrected information).\n\nFood-borne outbreak surveillance system at Member State level\n\n\nCountry\nAccess\nData\n\n\n\n\nFrance\nhttps://www.santepubliquefrance.fr/\nPdf report\n\n\nBelgique\nhttps://www.favv-afsca.be/\nHtml report"
+  },
+  {
+    "objectID": "public_health.html#relevant-information-related-to-ejp-oh-projects",
+    "href": "public_health.html#relevant-information-related-to-ejp-oh-projects",
+    "title": "5  Public health data",
+    "section": "5.6 Relevant information related to EJP OH projects",
+    "text": "5.6 Relevant information related to EJP OH projects"
+  },
+  {
+    "objectID": "Exposure_assessment.html",
+    "href": "Exposure_assessment.html",
+    "title": "Exposure Assessment",
+    "section": "",
+    "text": "Exposure assessment is the evaluation of the likely intake of microbiological hazards via food (as well as exposures from other sources if relevant). It results from the combination of the process model and the consumption model."
+  },
+  {
+    "objectID": "Consumption.html",
+    "href": "Consumption.html",
+    "title": "6  Consumption data",
+    "section": "",
+    "text": "A consumption model describes the amount of food consumed during a particular eating occasion (i.e., a serving) and/or the frequency of the consumption of these servings, or an average amount of food consumed per day. This amount may vary in time, between individuals, between the different population groups of interest and the considered exposure type."
+  },
+  {
+    "objectID": "Consumption.html#the-efsa-comprehensive-european-food-consumption-database",
+    "href": "Consumption.html#the-efsa-comprehensive-european-food-consumption-database",
+    "title": "6  Consumption data",
+    "section": "6.1 The EFSA Comprehensive European Food Consumption Database",
+    "text": "6.1 The EFSA Comprehensive European Food Consumption Database\n\n6.1.1 Scope\nThe Comprehensive Food Consumption Database gathers information on food consumption across the EU member states. The database is dedicated to be used in risk assessments related to possible chemical and microbiological hazards. The database is also relevant for the assessment of nutrient intakes. The food classification system ‘FoodEx2’ is used to categorise all foods and beverages included in the Comprehensive Database.\n\n\n6.1.2 Accessibility"
+  },
+  {
+    "objectID": "Consumption.html#faowho-gift-global-individual-food-consumption-data-tool",
+    "href": "Consumption.html#faowho-gift-global-individual-food-consumption-data-tool",
+    "title": "6  Consumption data",
+    "section": "6.2 FAO/WHO GIFT | Global Individual Food consumption data Tool",
+    "text": "6.2 FAO/WHO GIFT | Global Individual Food consumption data Tool\n\n6.2.1 Scope\n\n\n6.2.2 Accessibility"
+  },
+  {
+    "objectID": "Consumption.html#food-safety-collaborative-platform-foscollab",
+    "href": "Consumption.html#food-safety-collaborative-platform-foscollab",
+    "title": "6  Consumption data",
+    "section": "6.3 Food safety collaborative platform (FOSCOLLAB)",
+    "text": "6.3 Food safety collaborative platform (FOSCOLLAB)\nWHO | Food Safety Collaborative Platform"
+  },
+  {
+    "objectID": "Process_model.html",
+    "href": "Process_model.html",
+    "title": "7  Process model",
+    "section": "",
+    "text": "Process model describes how the concentrations of the hazard change along the different modules of the food production chain (potentially from farm to fork). The module definition comes from the Modular Process Risk Model methodology developed by Nauta (2001). Each module is defined to reflect one of the six basic process: growth, inactivation, mixing, partitioning, removal and cross-contamination . A module may combine several processing steps if they have a similar impact on the microorganism."
+  },
+  {
+    "objectID": "Process_model.html#predictive-microbiology-models-growth-and-inactivation",
+    "href": "Process_model.html#predictive-microbiology-models-growth-and-inactivation",
+    "title": "7  Process model",
+    "section": "7.1 Predictive microbiology models (growth and inactivation)",
+    "text": "7.1 Predictive microbiology models (growth and inactivation)\nPM models are used for describe the microbial responses towards environmental conditions, such as storage and processing conditions and product characteristics. Traditionally, models in predictive microbiology are classified as primary and secondary models. Numerous models have been developed (Tenenhaus-Aziza and Ellouze 2015). Some tertiary tools provide secondary models to predict the behavior of various pathogens in various conditions (e.g. ComBase Predictive Models, Food Spoilage and Safety Predictor, SymPrevius, GroPIN Modelling DataBase,…).\nIn order to identify the list of existing models, Food risk labs website maintain an exhaustive list of predictive models: FoodRisk-Labs.\nA search engine is available to retrieve predictive microbiology models (Figure 7.1)\n\n\n\nFigure 7.1: Search engine from BfR (openFMSR): example of use"
+  },
+  {
+    "objectID": "Process_model.html#database-of-microbial-responses",
+    "href": "Process_model.html#database-of-microbial-responses",
+    "title": "7  Process model",
+    "section": "7.2 Database of microbial responses",
+    "text": "7.2 Database of microbial responses\n\n7.2.1 Combase\n\n\n7.2.2 Other database of interest\n\n\n7.2.3 \n\n\n\n\nTenenhaus-Aziza, Fanny, and Mariem Ellouze. 2015. “Software for Predictive Microbiology and Risk Assessment: A Description and Comparison of Tools Presented at the Icpmf8 Software Fair.” Food Microbiology 45: 290–99."
+  },
+  {
+    "objectID": "dose_response.html",
+    "href": "dose_response.html",
+    "title": "8  Hazard characterization",
+    "section": "",
+    "text": "Dose-response modelling (DR) is undertaken to quantify the likelihood of infection and disease as a function of ingested dose. Risk characterization uses the results of exposure assessment and DR modelling to derive an estimate of the risk of disease in the population."
+  },
+  {
+    "objectID": "dose_response.html#qmra-wiki---dose-response",
+    "href": "dose_response.html#qmra-wiki---dose-response",
+    "title": "8  Hazard characterization",
+    "section": "8.1 QMRA wiki - Dose Response",
+    "text": "8.1 QMRA wiki - Dose Response\n\n8.1.1 Scope\nThe QMRA Wiki is a community portal for current quantitative information and knowledge developed for the Quantitative Microbial Risk Assessment (QMRA) field. It is an evolving knowledge repository intended to be the go to reference source for the microbial risk assessment community.\n\n\n8.1.2 Accessibility\nA dedicated section of QMRA wiki is dedicated to dose response models (QMRA wiki - DR). Completed dose response Models are available for several pathogens including bacteria, prion, protozoa and virus. For each pathogen, the data used, the model used and the parameters fitted on the different data are provided.\nA synthetic table of recommended best-fit parameters is also available for each pathogen. These recommanded fitted models are recommanded to be used in most circumstances. However, it’s up to the user to consider all available models to decide which one is most appropriate.\n\n\n\nExample of recommended Best-Fit Parameters for different pathogens in QMRA wiki\n\n\nThe users has also the possibility to assess through a web interface QMRA wiki - Tool :\n\nThe probability of illness given a dose\nThe dose associated to a given probability\nThe possibility to fit a model for user defined data"
+  },
+  {
+    "objectID": "dose_response.html#other-tools",
+    "href": "dose_response.html#other-tools",
+    "title": "8  Hazard characterization",
+    "section": "8.2 Other tools",
+    "text": "8.2 Other tools\nSeveral r packages dedicated to dose-response modelling have been proposed:"
+  },
+  {
+    "objectID": "Risk_characterization.html",
+    "href": "Risk_characterization.html",
+    "title": "Risk characterization",
+    "section": "",
+    "text": "Risk characterization is the final step in the quantitative risk assessment process.  It thus integrates the findings from the three previous components presented in this guide. Generic tools can help to integrate the data collected in the risk assessment (see. Appendix 1).\nAt this stage, specific data related to populations and burden of disease can be integrated according to the output targeted (@fig-risk).\n\n\n\n\n\ngraph TD\n  D[Dose]-->R1[Risk per portion]\n  DR[Probablility of illness given dose]-->R1[Risk per portion]\n  R1[Risk per portion]-->R2[Risk per person]\n  Ni[Number of portions per individual]-->R2[Risk per person]\n  Np[Number of portions for the population]-->R3[Populational risk]\n  R1[Risk per portion]-->R3[Populational risk]\n  R3[Populational risk]-->B[Burden of disease]\n  HM[Health metrics]-->B[Burden of disease]\n  B[Burden of disease]-->E[Monetary approach of risk]\n  C[Cost of illness]-->E[Monetary approach of risk]\n\n\n\n\n\nFigure 1: The possible outputs of the risk characterisation step"
+  },
+  {
+    "objectID": "Burden.html",
+    "href": "Burden.html",
+    "title": "9  Burden of disease data",
+    "section": "",
+    "text": "In order to go beyond the number of disease-related cases, two concepts are generally used: the QALY  (for Quality-Adjusted Life Years) and the DALY (for (Disability-Adjusted Life Year). QALYs correspond to the life years gained with an intervention, taking into account the quality of life during these years. A QALY is assigned a coefficient of 1 if it is a healthy year and less than 1 if the quality of life is reduced. These coefficients are based on population surveys.\nThe DALY metric quantifies the gap between a life lived in perfect health and the current health status, as the number of healthy life years lost due to illness (as Years Lived with Disability, YLDs) and to premature death (Years of Life Lost, YLLs)."
+  },
+  {
+    "objectID": "Burden.html#the-european-burden-of-disease-database.",
+    "href": "Burden.html#the-european-burden-of-disease-database.",
+    "title": "9  Burden of disease data",
+    "section": "9.1 The European Burden of Disease database.",
+    "text": "9.1 The European Burden of Disease database.\nhttps://www.burden-eu.net/outputs/bod-database"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Authority, European Food Safety. 2022. “Harmonized Terminology for\nScientific Research.” Zenodo. https://doi.org/10.5281/zenodo.5949025.\n\n\nBalkey, Maria, Michael Batz, Gopal Gopinath, Gurinder Gosal, Emma\nGriffiths, Heather Tate, and Ruth Timme. 2021. “Standardizing the\nIsolation Source Metadata for the Genomic Epidemiology of Foodborne\nPathogens Using LexMapr.” IAFP 2021.\n\n\n(EFSA), European Food Safety Authority. 2015. “The Food\nClassification and Description System FoodEx 2 (Revision 2).”\nEFSA Supporting Publications 12 (5): 804E. https://doi.org/https://doi.org/10.2903/sp.efsa.2015.EN-804.\n\n\nEuropean Food Safety Authority (EFSA), Giusi Amore, Frank Boelaert,\nDavide Gibin, Alexandra Papanikolaou, Valentina Rizzi, and Anca-Violeta\nStoicescu. 2022. “Zoonoses and foodborne outbreaks guidance for\nreporting 2021 data.” EFSA Supporting Publications 19\n(1). https://doi.org/10.2903/sp.efsa.2022.EN-7131.\n\n\nEuropean Food Safety Authority (EFSA), Frank Boelaert, Davide Gibin,\nAlexandra Papanikolaou, Valentina Rizzi, and Anca-Violeta Stoicescu.\n2022. “Prevalence sample-based guidance for reporting\n2021 data.” EFSA Supporting Publications 19 (1). https://doi.org/10.2903/sp.efsa.2022.EN-7129.\n\n\nHaberbeck, Leticia Ungaretti, Carolina Plaza-Rodríguez, Virginie\nDesvignes, Paw Dalgaard, Moez Sanaa, Laurent Guillier, Maarten Nauta,\nand Matthias Filter. 2018. “Harmonized Terms, Concepts and\nMetadata for Microbiological Risk Assessment Models: The Basis for\nKnowledge Integration and Exchange.” Microbial Risk\nAnalysis 10: 3–12. https://doi.org/https://doi.org/10.1016/j.mran.2018.06.001.\n\n\nKoutsoumanis, Konstantinos P, and Zafiro Aspridou. 2016. “Moving\nTowards a Risk-Based Food Safety Management.” Current Opinion\nin Food Science 12 (December): 36–41. https://doi.org/10.1016/j.cofs.2016.06.008.\n\n\nMangone, Iolanda, Nicolas Radomski, Adriano Di Pasquale, Andrea\nSanturbano, Paolo Calistri, Cesare Cammà, and Kitty Maassen. 2021.\n“Refinement of the COHESIVE Information\nSystem towards a unified ontology of food terms for the public health\norganizations (COHESIVE).” Zenodo. https://doi.org/10.5281/zenodo.5482422.\n\n\nMicrobiological Risk Assessment  Guidelines for\nFood. 2021. FAO; WHO. https://doi.org/10.4060/cb5006en.\n\n\nMota, Juliana De Oliveira, Laurent Guillier, Henk Aarts, and Virginie\nDesvignes. 2022. “Deliverable D.4.1.3. Report\non the survey related to the availability and quality of data used for\nrisk assessment.” Zenodo. https://doi.org/10.5281/zenodo.5882651.\n\n\nRichardson, LaTonia Clay, Michael C Bazaco, Cary Chen Parker, Daniel\nDewey-Mattia, Neal Golden, Karen Jones, Karl Klontz, Curtis Travis,\nJoanna Zablotsky Kufel, and Dana Cole. 2017. “An Updated Scheme\nfor Categorizing Foods Implicated in Foodborne Disease Outbreaks: A\nTri-Agency Collaboration.” Foodborne Pathogens and\nDisease 14 (12): 701–10.\n\n\nSanaa, Moez, Régis Pouillot, Francisco Garces Vega, Errol Strain, and\nJane M Van Doren. 2019. “GenomeGraphR: A User-Friendly Open-Source\nWeb Application for Foodborne Pathogen Whole Genome Sequencing Data\nIntegration, Analysis, and Visualization.” PloS One 14\n(2): e0213039.\n\n\nTenenhaus-Aziza, Fanny, and Mariem Ellouze. 2015. “Software for\nPredictive Microbiology and Risk Assessment: A Description and\nComparison of Tools Presented at the Icpmf8 Software Fair.”\nFood Microbiology 45: 290–99."
+  },
+  {
+    "objectID": "General_tools.html#microhibro",
+    "href": "General_tools.html#microhibro",
+    "title": "Appendix A — Relevant generic tools for",
+    "section": "A.2 MicroHibro",
+    "text": "A.2 MicroHibro"
+  },
+  {
+    "objectID": "General_tools.html#rakip",
+    "href": "General_tools.html#rakip",
+    "title": "Appendix A — Relevant generic tools for",
+    "section": "A.3 RAKIP",
+    "text": "A.3 RAKIP"
+  },
+  {
+    "objectID": "General_tools.html#section",
+    "href": "General_tools.html#section",
+    "title": "Appendix A — Relevant generic tools for",
+    "section": "A.4 ",
+    "text": "A.4 \nswift Quantitative Microbiological Risk Assessment"
+  }
+]

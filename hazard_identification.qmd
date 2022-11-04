@@ -1,0 +1,46 @@
+# Hazard identification
+
+A QMRA has always for origin an initial statement on the specific objectives of a risk assessment (the risk question). The risk question should precisely define (see @fig-hazard_id):
+
+-   the microbiological hazard causing the adverse effect
+-   the foods of interest
+-   the population of interest
+
+![](images/pathogens.png){width="100"}
+
+![](images/foods.png){width="100"}
+
+![](images/populations.png){width="100"}
+
+```{mermaid}
+%%| label: fig-hazard_id
+%%| echo: false
+%%| fig-cap: "Components of hazard identification"
+
+graph TD
+
+Q[Risk question]
+
+H[Hazards]
+
+PM[Product/Matrix]
+
+P[Population groups]
+
+PH[Public health]
+
+subgraph Hazard identification
+
+Q-->H
+
+Q-->PM
+
+Q-->P
+
+
+
+end
+
+```
+
+The following chapters aims at identifying the data of interest for characterizing the pathogens contamination of foods and the population.

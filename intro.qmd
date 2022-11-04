@@ -1,0 +1,81 @@
+# Introduction
+
+By the late 1990s, concepts of risk and risk assessment have been employed to inform decision-making for the management of food safety risks. Modern food safety policies are intended to be risk-based [@koutsoumanis2016].The framework for carrying out risk assessments of foodborne pathogens is well established [@microbio2021] and relies on four components including hazard identification, hazard characterization, exposure assessment and risk characterization @fig-qmra.
+
+```{mermaid}
+%%| label: fig-qmra
+%%| echo: false
+%%| fig-cap: "Main stages of QMRA model"
+
+graph TD
+Q[Risk question]
+H[Hazards]
+PM[Product/Matrix]
+P[Population group]
+DR[Dose-response model]
+PrM[Process model]
+CM[Consumption model]
+E[Exposure model]
+HM[Health metrics]
+R[Risk characterization model]
+
+
+
+subgraph Hazard identification
+Q-->H
+Q-->PM
+Q-->P
+end
+
+subgraph Exposure assessment
+H-->PrM
+PM-->PrM
+PM-->CM
+P-->CM
+PrM-->E
+CM-->E
+end
+
+subgraph Hazard characteryzation
+H-->DR
+P-->DR
+end
+
+subgraph Risk characteryzation
+H-->HM
+DR-->R
+HM-->R
+E-->R
+end
+
+```
+
+If the QMRA approach is well structured, the method used by the risk assessor can vary. One may adopt qualitative and/or quantitative method. It may consider determnisitic or stochastic
+
+The QMRA approach can help to answer various questions. For examples, [@jdom_2022] identified the following objectives:
+
+-   evaluation of illness risk,
+
+-   assessment of interventions,
+
+-   simple exposure assessment,
+
+-   or risk ranking.
+
+Each objective is associated to specific starting point (farm, food industry, retail,...), output (score or risk, mean annual risk, DALY,...) and data needs.
+
+One of the main challenge is to identify the appropriate approach to tackle the risk question. In this context, EJP OH COHESIVE proposes a decision support tool to help risk assessor: [COHESIVE Decision Support Tool](https://rawcdn.githack.com/RDewar/Decision-support-tool-EJP/c369a4f897ed09ef9c8b6e6fbc58d42014a298bf/Workingtool1.html). The tool helps to define the best approach according to the objective and time available.
+
+Once the approach has been chosen, the main challenge is to gather data. Different types of data can be collected (microbial concentrations, daily consumption, etc.). The collected data should be fit for purpose, representative and allow a meaningful analysis [@Haberbeck2018].
+
+::: callout-note
+## Objective of this document
+
+Our goal is to provide an help to identify data/knowledge that risk assessors and data scientists need at the start of their projects.
+:::
+
+::: callout-caution
+## Versioning of the document
+
+This is the first release (September 2022) of the "Guide for accessing relevant data and models for quantitative microbial risk assessment". The document is uploaded in Zenodo, lastest relase can be find here: . This document will be maintained by authors according to the sustainability plan of CARE. All stakeholders, including students, researchers,risk assessment teams, are encouraged to use this document. This document is always a work in progress and everyone is encouraged to help us build something that is useful to the many.
+:::

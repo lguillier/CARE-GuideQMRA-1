@@ -1,0 +1,25 @@
+# Risk characterization
+
+Risk characterization is defined as "*The qualitative and/or quantitative estimation, including attendant uncertainties, of the probability of occurrence and severity of known or potential adverse health effects in a given population based on hazard identification, hazard characterization and exposure assessment*" (Codex Alimentarius Commission, 1999; Haberbeck et al., 2018).
+
+Risk characterization is the final step in the quantitative risk assessment process.  It thus integrates the findings from the three previous components presented in this guide. Generic tools can help to integrate the data collected in the risk assessment (see. Appendix 1).
+
+At this stage, specific data related to populations and burden of disease can be integrated according to the output targeted (\@fig-risk).
+
+```{mermaid}
+%%| label: fig-risk
+%%| echo: false
+%%| fig-cap: "The possible outputs of the risk characterisation step"
+
+graph TD
+  D[Dose]-->R1[Risk per portion]
+  DR[Probablility of illness given dose]-->R1[Risk per portion]
+  R1[Risk per portion]-->R2[Risk per person]
+  Ni[Number of portions per individual]-->R2[Risk per person]
+  Np[Number of portions for the population]-->R3[Populational risk]
+  R1[Risk per portion]-->R3[Populational risk]
+  R3[Populational risk]-->B[Burden of disease]
+  HM[Health metrics]-->B[Burden of disease]
+  B[Burden of disease]-->E[Monetary approach of risk]
+  C[Cost of illness]-->E[Monetary approach of risk]
+```

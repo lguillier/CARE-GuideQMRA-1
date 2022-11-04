@@ -1,0 +1,61 @@
+project:
+  type: book
+
+book:
+  title: "A guide for accessing relevant data and models for quantitative microbial risk assessment"
+  author: 
+  - name: Laurent Guillier
+    orcid: 0000-0002-7867-2937
+    email: laurent.guillier@anses.fr
+  - name: Pauline KOOH
+    orcid: 0000-0002-7106-9617
+    email: pauline.kooh@anses.fr
+  - name: Juliana de Oliveira Mota
+    orcid: 0000-0003-3052-0085
+    email: deju@who.int
+  - name: Ngoc-Du Luong
+    orcid: 0000-0003-0714-136X
+    email: ngoc-du.luong@anses.fr
+  - name: Marie Vallée
+    orcid: 0000-0002-4233-8400
+    email: marie.vallee@anses.fr
+  
+
+  date: 31/10/2022
+  date-format: long
+
+ 
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: hazard_identification.qmd
+      chapters:
+      - hazards.qmd
+      - foods.qmd
+      - contamination.qmd
+      - public_health.qmd
+    - part: Exposure_assessment.qmd
+      chapters:
+      - Consumption.qmd
+      - Process_model.qmd
+    - dose_response.qmd
+    - part: Risk_characterization.qmd
+      chapters:
+      - Burden.qmd
+    - references.qmd
+  appendices:
+    - General_tools.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+always_allow_html: true
+
+editor: visual
+
+license: "CC BY"

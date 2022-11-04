@@ -1,0 +1,33 @@
+# Hazard characterization
+
+Dose-response modelling (DR) is undertaken to quantify the likelihood of infection and disease as a function of ingested dose. Risk characterization uses the results of exposure assessment and DR modelling to derive an estimate of the risk of disease in the population.
+
+## QMRA wiki - Dose Response
+
+### Scope
+
+The QMRA Wiki is a community portal for current quantitative information and knowledge developed for the Quantitative Microbial Risk Assessment (QMRA) field. It is an evolving knowledge repository intended to be the go to reference source for the microbial risk assessment community.
+
+### Accessibility
+
+A dedicated section of QMRA wiki is dedicated to dose response models ([QMRA wiki - DR](http://qmrawiki.canr.msu.edu/index.php/Dose_Response)). Completed dose response Models are available for several pathogens including bacteria, prion, protozoa and virus. For each pathogen, the data used, the model used and the parameters fitted on the different data are provided.
+
+A synthetic table of recommended best-fit parameters is also available for each pathogen. These recommanded fitted models are recommanded to be used in most circumstances. However, it's up to the user to consider all available models to decide which one is most appropriate.
+
+![Example of recommended Best-Fit Parameters for different pathogens in QMRA wiki](images/qmra_wiki_params.PNG)
+
+The users has also the possibility to assess through a web interface [QMRA wiki - Tool](http://qmrawiki.canr.msu.edu/app/#/app/dose) :
+
+-   The probability of illness given a dose
+
+-   The dose associated to a given probability
+
+-   The possibility to fit a model for user defined data
+
+## Other tools
+
+Several r packages dedicated to dose-response modelling have been proposed:
+
+-   
+
+![](images/wip.png){width="275"}

@@ -1,0 +1,3 @@
+# Exposure Assessment
+
+Exposure assessment is the evaluation of the likely intake of microbiological hazards via food (as well as exposures from other sources if relevant). It results from the combination of the process model and the consumption model.

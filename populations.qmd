@@ -1,0 +1,33 @@
+# Populations
+
+![](images/populations.png){width="162"}
+
+Demographic data are essential for risk assessment, especially when the objective is to assess the risk at population level.
+
+A common practice during risk characterisation to estimate population level risk is to calculate the risk per individual per year and then use population data to obtain the number of cases per year in the geographical area concerned.
+
+Moreover, as sensitivities may differ for different categories of the population, it's essential to get their relative proportions in the general population. For example, it is known that
+
+-   the risk of developing haemolytic uraemic syndrome is higher in people under 15 years of age,
+
+-   the risk of listeriosis depends on the immunosuppression of the target populations,
+
+-   the risk of salmonellosis is different for people with antibiotic treatment (dysbiosis of the digestive microbiota) or on antacids.
+
+The assessment of the risk at the population level therefore depends on the distribution between the different age groups, the immune status and the current treatments.
+
+## Eurostat data
+
+### Scope
+
+### Accessibility
+
+### 
+
+## **Antimicrobial consumption database (ESAC-Net)**
+
+### Scope
+
+The ESAC-Net rovides European reference data on antimicrobial consumption, both in the community and the hospital sector. The reports of the database are provided through the European Surveillance System (TESSy).
+
+### Accessibility

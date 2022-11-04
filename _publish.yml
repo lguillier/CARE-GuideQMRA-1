@@ -1,0 +1,6 @@
+- source: project
+  quarto-pub:
+    - id: c63187f9-c8b6-4021-9304-de896a35fb47
+      url: 'https://quartopub.com/sites/lguillier/guide-data'
+    - id: 0a96746f-3355-4b61-89e6-a7f1113f6d4d
+      url: 'https://quartopub.com/sites/lguillier/care-guide-for-data'

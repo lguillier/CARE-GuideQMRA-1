@@ -1,0 +1,31 @@
+# Hazards
+
+![](images/pathogens.png){width="177"}
+
+Food contamination can occur at all stages of the food chain and by various microorganisms including bacteria, viruses, molds, parasites, and unconventional agents. Among these microorganisms responsible for foodborne diseases, bacteria, viruses, and parasites are the most common. Definition of microbiological hazards in hazard identification is a key step. It involves to define the microbiological agents (Hazard) capable of causing adverse health effect considered by the risk assessment. The following sections describe the resources that provide formalized lists of microbiological hazards.
+
+## SSD
+
+## Other relevant resources
+
+### NCBI Taxon ontology
+
+This ontology has been used to describe the hazard term of the
+
+This ontology has been to defeine hazard categories in EJPOH ORION Health Surveillance Ontology dedicated to human and machine-readable knowledge model for surveillance (see [https://w3id.org/hso](http://datadrivensurveillance.org/health-surveillance-ontology-hso/))
+
+### LPSN - List of Prokaryotic names with Standing in Nomenclature
+
+10.1099/ijsem.0.004332 https://lpsn.dsmz.de/
+
+### The Cohesive information system
+
+The EJP COHESIVE propose a demonstration on the tools to collect data related to the area of risk‐analysis, aims today at integrating also genomics data from human and veterinary domains involved in genomics-based surveillance. In this context, the COHESIVE Information System (CIS) has been created [@mangone2021] with separate instances of several Member States, in order to provide a proof of concept showing the advantages for surveillance and investigation of outbreaks. The CIS include a table related to information on the species of the microorganism.
+
+### Ressources for antimicrobial resistance
+
+https://bitbucket.org/genomicepidemiology/resfinder_db/src/master/ ChEBI ontology CARD,
+
+### QPS biological agents
+
+The list of biological agents that are notified to EFSA in the context of a technical dossier to EFSA (for intentional use directly or as sources of food and feed additives, food enzymes and plant protection products for safety assessment), is kept updated every 6 months. The Updated list of QPS-recommended biological agents for safety risk assessments carried out by EFSA is available at <https://doi.org/10.5281/zenodo.1146566>.
