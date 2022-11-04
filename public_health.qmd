@@ -1,6 +1,5 @@
 # Public health data
 
-
 ## The European Surveillance System (TESSy)
 
 ### Scope
@@ -48,7 +47,7 @@ The EFSA dashboard on foodborne outbreaks allows for searching data on foodborne
 The information collected at European level is also reported by the EU Member States. Information available at national level can provide complementary information to that used at transnational level. The Table below lists the references to the data collected on the identified foodborne outbreaks (please do not hesitate to contact the authors of this report to provide missing or corrected information).
 
 | Country  | Access                                                                                                                                                                                                                                                                                                                    | Data        |
-|-------------|-----------------------------------------------|-------------|
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
 | France   | [https://www.santepubliquefrance.fr/](https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-infectieuses-d-origine-alimentaire/toxi-infections-alimentaires-collectives/documents/bulletin-national/surveillance-des-toxi-infections-alimentaires-collectives.-donnees-de-la-declaration-obligatoire-2020) | Pdf report  |
 | Belgique | [https://www.favv-afsca.be/](https://www.favv-afsca.be/activiteitenverslag/2020/voedseltoxiinfecties/)                                                                                                                                                                                                                    | Html report |
 |          |                                                                                                                                                                                                                                                                                                                           |             |
