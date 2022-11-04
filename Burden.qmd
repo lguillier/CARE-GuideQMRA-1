@@ -1,6 +1,6 @@
 # Burden of disease data
 
-In order to go beyond the number of disease-related cases, two concepts are generally used: the QALY  (for Quality-Adjusted Life Years) and the DALY (for (Disability-Adjusted Life Year). QALYs correspond to the life years gained with an intervention, taking into account the quality of life during these years. A QALY is assigned a coefficient of 1 if it is a healthy year and less than 1 if the quality of life is reduced. These coefficients are based on population surveys.
+In order to go beyond the number of disease-related cases, two concepts are generally used [@pires2021]: the QALY  (for Quality-Adjusted Life Years) and the DALY (for (Disability-Adjusted Life Year). QALYs correspond to the life years gained with an intervention, taking into account the quality of life during these years. A QALY is assigned a coefficient of 1 if it is a healthy year and less than 1 if the quality of life is reduced. These coefficients are based on population surveys.
 
 The DALY metric quantifies the gap between a life lived in perfect health and the current health status, as the number of healthy life years lost due to illness (as Years Lived with Disability, YLDs) and to premature death (Years of Life Lost, YLLs).
 
