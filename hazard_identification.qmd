@@ -20,25 +20,25 @@ A QMRA has always for origin an initial statement on the specific objectives of 
 graph TD
 
 Q[Risk question]
-
+PM[Food products]
+P[Population groups]
 H[Hazards]
 
-PM[Product/Matrix]
+PH[Public health data]
 
-P[Population groups]
-
-PH[Public health]
+C[Contamination data]
 
 subgraph Hazard identification
-
-Q-->H
-
 Q-->PM
-
+Q-->H
 Q-->P
+end
 
-
-
+subgraph Interactions
+H-->PH
+P-->PH
+H-->C
+PM-->C
 end
 
 ```
