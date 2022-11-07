@@ -12,7 +12,7 @@ Moreover, as sensitivities may differ for different categories of the population
 
 -   the risk of listeriosis depends on the immunosuppression of the target populations,
 
--   the risk of salmonellosis is different for people with antibiotic treatment (dysbiosis of the digestive microbiota) or on antacids.
+-   the risk of salmonellosis is different for people with antibiotic treatment (dysbiosis of the digestive microbiota) or on antacids [@guillier2021].
 
 The assessment of the risk at the population level therefore depends on the distribution between the different age groups, the immune status and the current treatments.
 
