@@ -4,9 +4,7 @@ In order to go beyond the number of disease-related cases, two concepts are gene
 
 The DALY metric quantifies the gap between a life lived in perfect health and the current health status, as the number of healthy life years lost due to illness (as Years Lived with Disability, YLDs) and to premature death (Years of Life Lost, YLLs).
 
-## 
-
-Burden of communicable diseases (BECoDE toolkit)
+## Burden of communicable diseases (BECoDE toolkit)
 
 ### Scope
 
@@ -16,7 +14,7 @@ ECDC initiated the BCoDE project in 2009 to estimate the burden of communicable 
 
 The BCoDE toolkit is downloadable as a zip archive (<https://www.ecdc.europa.eu/sites/default/files/documents/BCoDE_v2.0.0.zip>). The toolkit includes an embedded tutorial, disease models describing the progression pathway of each disease, input tables and several output vizualisation options. The only necessary input is the number of yearly cases, but the other parameters can also be edited if needed (@fig-becode).
 
-![BECoDE toolkit](images/BECoDE.png) {#fig-becode}
+![BECoDE toolkit](images/BECoDE.png){#fig-becode}
 
 ## The **European Burden of Disease database.**
 
