@@ -1,0 +1,13 @@
+# Antimicrobial resistance
+
+## Antimicrobial resistance in Europe
+
+### Scope
+
+The EFSA and ECDC initiate in 2015 the antimicrobial resistance in Europe Data Visualization tool. This interface shows the resistance of Salmonella and E. coli in food (meat from cattle and pig), animals (Calves and pig) and humans, country by country for 17 antimicrobials. The antimicrobial resistance is range from rare (\<0.1%) to extremely high (\>70%).
+
+### Accessibility
+
+The antimicrobial resistance in Europe interface is available with this link : [Antimicrobial resistance in Europe](https://efsa.gitlab.io/multimedia/dataviz-2015/index.htm?lang=en#). The user can choose to focus on the country orthe antimicrobial by setting the bacteria and the source (@fig-antibioresistance). The data base presenting the occurrence of resistance in Salmonella and E. coli from animals, meat and humans in EU member States is available here : [Data_Viz_2015_updates_ECDC.xlsx](https://zenodo.org/record/495574/files/Data%20Viz%202015%20updates_ECDC.xlsx?download=1).
+
+![Antimicrobial resistance in Europe](images/antimicrobial_resistance_ECDC.png){#fig-antibioresistance}

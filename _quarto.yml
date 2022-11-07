@@ -38,6 +38,7 @@ book:
       chapters:
       - Consumption.qmd
       - Process_model.qmd
+      - Antimicrobial_resistance.qmd
     - dose_response.qmd
     - part: Risk_characterization.qmd
       chapters:
