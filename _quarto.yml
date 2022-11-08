@@ -33,6 +33,7 @@ book:
       - hazards.qmd
       - foods.qmd
       - contamination.qmd
+      - Antimicrobial_resistance.qmd
       - public_health.qmd
     - part: Exposure_assessment.qmd
       chapters:
@@ -43,6 +44,7 @@ book:
     - part: Risk_characterization.qmd
       chapters:
       - Burden.qmd
+      - populations.qmd
     - references.qmd
   appendices:
     - General_tools.qmd
@@ -50,6 +52,10 @@ book:
 bibliography: references.bib
 
 format:
+  docx: 
+    toc: true
+    number-sections: true
+    highlight-style: github
   html:
     theme: cosmo
   pdf:
