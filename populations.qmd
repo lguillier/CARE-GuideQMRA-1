@@ -20,9 +20,11 @@ The assessment of the risk at the population level therefore depends on the dist
 
 ### Scope
 
+![](images/wip.png){width="177"}
+
 ### Accessibility
 
-### 
+![](images/wip.png){width="177"}
 
 ## **Antimicrobial consumption database (ESAC-Net)**
 

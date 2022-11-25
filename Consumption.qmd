@@ -12,14 +12,41 @@ The Comprehensive Food Consumption Database gathers information on food consumpt
 
 ### Accessibility
 
+Food consumption statistics are available for each FoodEx2 level. The user have access to the statistics for the total population or consumer only, and in grams per day or grams per day per kilogram of body weight. The "Food consumption - survey details" dashboard describes dietary survey details, including age, country and gender.
+
 ## FAO/WHO GIFT \| Global Individual Food consumption data Tool
 
 ### Scope
 
+FAO and WHO have developed the GIFT platform to make food consumption data available by gender and age for many countries, including low-income countries. These data are used to assess dietary exposure to food safety hazards and to identify the main food sources of these hazards for risk analysis.
+This database is global and publicly accessible. It combines existing data collected through individual food consumption surveys conducted at the national or sub-national level.
+
 ### Accessibility
+
+![](images/wip.png){width="256"}
 
 ## **Food safety collaborative platform (FOSCOLLAB)**
 
-[WHO \| Food Safety Collaborative Platform](https://apps.who.int/foscollab/Download/DownloadConso)
+### Scope
+
+The Food safety collaborative platform (FOSCOLLAB) draws on multiples sources of reliable data : JECFA database, JMPR database, GEMS/Food Contaminants database, FAO/WHO Chronic individual food consumption database (CIFOCOss), the WHO Collaborating Centers Database and data from other UN organizations.
+
+### Accessibility
+
+Two entries are available on the platform:
+
+-   The \"Data Analysis\" entry contains risk assessment reports and food consumption and food contamination data analysis.
+
+-   The \"Raw data & summary statistics\" entry allows the user to access and download raw data for food contamination and summary statistics for food consumption.
+
+## Ressources available in Member states
+
+| Country | Access                                       | Data |
+|---------|----------------------------------------------|------|
+| France  | <https://www.data.gouv.fr/fr/datasets/inca/> |      |
+|         |                                              |      |
+|         |                                              |      |
+
+: Consumption data at Member State level
 
 ![](images/wip.png){width="256"}

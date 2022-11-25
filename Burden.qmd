@@ -18,6 +18,26 @@ The BCoDE toolkit is downloadable as a zip archive (<https://www.ecdc.europa.eu/
 
 ## The **European Burden of Disease database.**
 
-https://www.burden-eu.net/outputs/bod-database
+### Scope
 
-![](images/wip.png){width="227"}
+The European Burden of Disease network is an international technical platform allowing researchers to increase their skills in interpreting and conducting BoD studies, and to support methodological advances in the field of BoD.
+
+The European Burden of Disease network is separate in five working groups with specifics focus:
+non-communicable diseases and injuries
+infectious Diseases
+Risk Factors
+Methods
+Knowledge Translation
+
+The European Burden of Disease database
+contains the records related to burden of diseases in Europe.
+
+### Accessibility
+
+![](images/wip.png){width="177"}
+
+## WHO DATA for global burden of foodborne
+
+![](images/wip.png){width="177"}
+
+## 

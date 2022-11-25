@@ -29,3 +29,7 @@ https://bitbucket.org/genomicepidemiology/resfinder_db/src/master/ ChEBI ontolog
 ### QPS biological agents
 
 The list of biological agents that are notified to EFSA in the context of a technical dossier to EFSA (for intentional use directly or as sources of food and feed additives, food enzymes and plant protection products for safety assessment), is kept updated every 6 months. The Updated list of QPS-recommended biological agents for safety risk assessments carried out by EFSA is available at <https://doi.org/10.5281/zenodo.1146566>.
+
+### Available list of hazards
+
+![](images/wip.png){width="177"}
