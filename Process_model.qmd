@@ -16,8 +16,8 @@ A search engine is available to retrieve predictive microbiology models (@fig-FM
 
 ### Combase
 
-![](images/wip.png){width="256"}
+![](images/wip.png){width="100"}
 
 ### Other database of interest
 
-![](images/wip.png){width="256"}
+![](images/wip.png){width="100"}

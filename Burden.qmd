@@ -23,21 +23,23 @@ The BCoDE toolkit is downloadable as a zip archive (<https://www.ecdc.europa.eu/
 The European Burden of Disease network is an international technical platform allowing researchers to increase their skills in interpreting and conducting BoD studies, and to support methodological advances in the field of BoD.
 
 The European Burden of Disease network is separate in five working groups with specifics focus:
-non-communicable diseases and injuries
-infectious Diseases
-Risk Factors
-Methods
-Knowledge Translation
 
-The European Burden of Disease database
-contains the records related to burden of diseases in Europe.
+-   non-communicable diseases and injuries
+
+-   infectious Diseases
+
+-   Risk Factors
+
+-   Methods
+
+-   Knowledge Translation
+
+The European Burden of Disease database contains the records related to burden of diseases in Europe.
 
 ### Accessibility
 
-![](images/wip.png){width="177"}
+The European Burden of Disease database is available on this link : <https://www.burden-eu.net/outputs/bod-database>. The user can filter his research by topic, country or key words.
 
 ## WHO DATA for global burden of foodborne
 
-![](images/wip.png){width="177"}
-
-## 
+This report provide the first estimates of global foodborne disease incidence, mortality, and disease burden in term of Disability Adjusted Life Year (DALYs). 31 foodborne haz ards causing 32 diseases are include (11 diarrheal disease agents, 7 infectious disease agents, 10 helminths and 3 chemicals). Summary measures of public health were used as a measure of the burden of foodborne disease. The DALY metric was chosen because it is an established WHO metric with international application and it is consistent with the Global Burden of Disease project. This report contains a large amount of aggregated data about the measure of the burden of foodborne disease that can be used in the risk assessment (https://apps.who.int/iris/bitstream/handle/10665/199350/9789241565165_eng.pdf).

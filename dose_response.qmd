@@ -30,4 +30,4 @@ Several r packages dedicated to dose-response modelling have been proposed:
 
 -   
 
-![](images/wip.png){width="275"}
+![](images/wip.png){width="100"}

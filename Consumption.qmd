@@ -1,6 +1,6 @@
 # Consumption data
 
-![](images/paste-418FBE78.png){width="108"}
+![](images/paste-418FBE78.png){width="100"}
 
 A consumption model describes the amount of food consumed during a particular eating occasion (i.e., a serving) and/or the frequency of the consumption of these servings, or an average amount of food consumed per day. This amount may vary in time, between individuals, between the different population groups of interest and the considered exposure type.
 
@@ -8,7 +8,7 @@ A consumption model describes the amount of food consumed during a particular ea
 
 ### Scope
 
-The Comprehensive Food Consumption Database gathers information on food consumption across the EU member states. The database is dedicated to be used in risk assessments related to possible chemical and microbiological hazards. The database is also relevant for the assessment of nutrient intakes. The food classification system 'FoodEx2' is used to categorise all foods and beverages included in the Comprehensive Database.
+The Comprehensive Food Consumption Database gathers information on food consumption across the EU member states. The database is dedicated to be used in risk assessments related to possible chemical and microbiological hazards. The database is also relevant for the assessment of nutrient intakes. The food classification system 'FoodEx2' is used to categorize all foods and beverages included in the Comprehensive Database.
 
 ### Accessibility
 
@@ -18,12 +18,11 @@ Food consumption statistics are available for each FoodEx2 level. The user have 
 
 ### Scope
 
-FAO and WHO have developed the GIFT platform to make food consumption data available by gender and age for many countries, including low-income countries. These data are used to assess dietary exposure to food safety hazards and to identify the main food sources of these hazards for risk analysis.
-This database is global and publicly accessible. It combines existing data collected through individual food consumption surveys conducted at the national or sub-national level.
+FAO and WHO have developed the GIFT platform to make food consumption data available by gender and age for many countries, including low-income countries. These data are used to assess dietary exposure to food safety hazards and to identify the main food sources of these hazards for risk analysis. This database is global and publicly accessible. It combines existing data collected through individual food consumption surveys conducted at the national or sub-national level.
 
 ### Accessibility
 
-![](images/wip.png){width="256"}
+![](images/wip.png){width="100"}
 
 ## **Food safety collaborative platform (FOSCOLLAB)**
 
@@ -35,18 +34,24 @@ The Food safety collaborative platform (FOSCOLLAB) draws on multiples sources of
 
 Two entries are available on the platform:
 
--   The \"Data Analysis\" entry contains risk assessment reports and food consumption and food contamination data analysis.
+-   The "Data Analysis" entry contains risk assessment reports and food consumption and food contamination data analysis.
 
--   The \"Raw data & summary statistics\" entry allows the user to access and download raw data for food contamination and summary statistics for food consumption.
+-   The "Raw data & summary statistics" entry allows the user to access and download raw data for food contamination and summary statistics for food consumption.
 
-## Ressources available in Member states
+## Resources available in Member states
 
-| Country | Access                                       | Data |
-|---------|----------------------------------------------|------|
-| France  | <https://www.data.gouv.fr/fr/datasets/inca/> |      |
-|         |                                              |      |
-|         |                                              |      |
++-----------------------+----------------------------------------------------------------------+-----------------------+
+| Country               | Description                                                          | Access                |
++=======================+======================================================================+=======================+
+| France                | Third French Individual and National Food Consumption Survey (INCA3) | data.gouv.fr;         |
+|                       |                                                                      |                       |
+|                       |                                                                      | inca3 R package       |
++-----------------------+----------------------------------------------------------------------+-----------------------+
+|                       |                                                                      |                       |
++-----------------------+----------------------------------------------------------------------+-----------------------+
+|                       |                                                                      |                       |
++-----------------------+----------------------------------------------------------------------+-----------------------+
 
 : Consumption data at Member State level
 
-![](images/wip.png){width="256"}
+![](images/wip.png){width="100"}

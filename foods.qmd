@@ -1,12 +1,12 @@
 # Foods
 
-![](images/foods.png){width="177"}
+![](images/foods.png){width="100"}
 
 ## FoodEx2
 
 ### Scope
 
-In 2015, EFSA developed a food classification and description system called FoodEx2 [@efsa2015], which is used for its data exchange with Member States. This system describes a large number of individual foods, grouped into food groups and broader food categories, classified using a formal hierarchical parent-child relationship (ontology). Most of the food names are generic, allowing the user to classify several similar foods under one name attached to a unique code. Facets" can be used to add details about the characteristics of the food. The current version of FoodEX2 has eight hierarchies: six pre-selected domain-specific food hierarchies based on an intended target use (exposure, zoonosis, veterinary residue, etc.). There is also a complete hierarchy ("Master hierarchy"), for terminology management, and a general hierarchy oriented towards data capture ("Reporting hierarchy"). The latter has been used to select the food categories of interest, providing a common repository of food descriptions. It comprises 10,366 terms divided into three broad categories, "Food", "Feed" and "Non-food matrices", up to 10 levels deep (hierarchy levels H1 to H10).
+In 2015, EFSA developed a food classification and description system called FoodEx2 [@efsa2015], which is used for its data exchange with Member States. This system classifies a large number of individual foods into food groups, food categories using a formal hierarchical parent-child relationship (ontology). Most of the food names are generic, allowing the user to classify several similar foods under one name attached to a unique code. Facets" can be used to add details about the characteristics of the food. The current version of FoodEX2 has eight hierarchies: six pre-selected domain-specific food hierarchies based on an intended target use (exposure, zoonosis, veterinary residue, etc.). There is also a complete hierarchy ("Master hierarchy"), for terminology management, and a general hierarchy oriented towards data capture ("Reporting hierarchy"). The latter has been used to select the food categories of interest, providing a common repository of food descriptions. It comprises 10,366 terms divided into three broad categories, "Food", "Feed" and "Non-food matrices", up to 10 levels deep (hierarchy levels H1 to H10).
 
 FoodEx2 also offers facets, which are used to add more detail to the information provided by the selected term in the food list. These facets are collections of additional terms describing the properties and aspects of the food from different angles. Thus, it is possible to provide information on the source of the food, the preservation process, the intended use, etc.
 
@@ -30,7 +30,7 @@ The IFSAC food categorization scheme [@richardson2017] has a multilevel structur
 
 The IFASC is accessible online: [IFASC_groups](https://www.cdc.gov/foodsafety/ifsac/projects/food-categorization-scheme.html).
 
-Some adaptions of these scheme are available:
+Some adaptions of these schemes are available:
 
 -   in [GenomegraphR](https://fda-riskmodels.foodrisk.org/genomegraphr/) tool [@sanaa2019]
 

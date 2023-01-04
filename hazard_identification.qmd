@@ -2,9 +2,11 @@
 
 A QMRA has always for origin an initial statement on the specific objectives of a risk assessment (the risk question). The risk question should precisely define (see @fig-hazard_id):
 
--   the microbiological hazard causing the adverse effect
+-   the microbiological hazard(s) causing the adverse effect
 -   the foods of interest
 -   the population of interest
+
+One can cite an example of risk question: "What are the isk of *Campylobacter* and *Salmonella* infection linked to chiken meals prepared in households in Dakar, Senegal ([@pouillot2012]).
 
 ![](images/pathogens.png){width="100"}
 

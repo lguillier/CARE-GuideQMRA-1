@@ -16,7 +16,7 @@ Since June 2021, The EpiPulse portal integrates TESSy with the five Epidemic Int
 
 The Surveillance Atlas of Infectious is accessible through the main page [Surveillance Atlas of Infectious Diseases (europa.eu)](https://www.ecdc.europa.eu/en/surveillance-atlas-infectious-diseases).
 
-Several infectious diseases are available in the atlas and for each of them, the user can choose the subpopulation, the indicator and the years. The user then has access to tables showing the distribution of the disease according to the chosen indicator by country, year and age and a European map showing the diseases distribution according to the chosen indicator (@fig-Atlas). The aggregated data of the Surveillance Atlas of Infectious can be exported as CSV format file or text.
+Several infectious diseases are available in the atlas and for each of them the user can choose the subpopulation, the indicator and the years. The user then has access to tables showing the distribution of the disease according to the chosen indicator by country, year and age and a European map showing the diseases distribution according to the chosen indicator (@fig-Atlas). The aggregated data of the Surveillance Atlas of Infectious can be exported as CSV format file or text.
 
 ![Surveillance Atlas of Infectious Diseases](images/ECDC_Atlas.png){#fig-Atlas alt="Surveillance Atlas of Infectious Diseases"}
 
@@ -24,28 +24,44 @@ Several infectious diseases are available in the atlas and for each of them, the
 
 ### Scope
 
-The EFSA FBO story map provides general information on foodborne outbreaks, their causative agents and implicated food vehicles. This tool is more dedicated to provide information than to share data. Yet, the tool can provide maps presenting the geographical distribution of the number of outbreaks across reporting EU countries. The users can generate also maps showing different outputs: human cases, hospitalisations and deaths.
+The EFSA FBO story map provides general information on foodborne outbreaks, their causative agents and implicated food vehicles. This tool is more dedicated to provide information than to share data. Yet, the tool can provide maps presenting the geographical distribution of the number of outbreaks across reporting EU countries. The users can generate also maps showing different outputs: human cases, hospitalizations and deaths. This story map tool is available for all foodborne outbreaks and more specifically for *Salmonella, Listeria monocytogenes* and *Campylobacter.*
 
 ### Accessibility
 
-The last updated EFSA FBO story map is available with this link: <https://multimedia.efsa.europa.eu/fbo-storymaps/index.html>.
+The last updated EFSA FBO story maps is available with these links:
+
+-   For all FBO: [Foodborne Outbreaks story map (arcgis.com)](https://storymaps.arcgis.com/stories/ca42d02e580441b79fdfd46a427abaab)
+
+-   *Salmonella:* [Salmonella story map (arcgis.com)](https://storymaps.arcgis.com/stories/13979918ca8948399180651d3b7ce3e1)
+
+-   *Listeria monocytogenes:* [Listeria monocytogenes story map (arcgis.com)](https://storymaps.arcgis.com/stories/629e6627e6c64111bfd5b9257473c74a)
+
+-   *Campylobacter*: [Campylobacter story map (arcgis.com)](https://storymaps.arcgis.com/stories/37987745de6f47029e14cb57d61fe923)
 
 ## The EFSA dashboard on foodborne outbreaks
 
 ### Scope
 
-The EFSA dashboard on foodborne outbreaks allows for searching data on foodborne outbreaks collected by EFSA from the EU Member States (and several other reporting countries). This reporting is carried out in the context of the Zoonoses Directive 2003/99/EC. The dashboard can display the FBO data interactively though graphs and maps. The main statistics can also be downloaded in the .csv format. A user guide describes the content and functionalities of the dashboard and provides step-by-step information to make full use of the tool.
+The EFSA dashboard on foodborne outbreaks allows for searching data on foodborne outbreaks collected by EFSA from the EU Member States (and several other reporting countries). This reporting is carried out in the context of the Zoonoses Directive 2003/99/EC. The dashboard can display the FBO data interactively though graphs and maps. The main statistics can also be downloaded in the .csv format. A user guide describes the content and functionalities of the dashboard and provides step-by-step information to make full use of the tool. Similar dashbord tool are published by EFSA specifically for *Salmonella, Listeria monocytogenes and Campylobacter.*
 
 ### Accessibility
 
-FBO data from 2015 to 2020 are available from this link: https://www.efsa.europa.eu/en/microstrategy/FBO-dashboard
+EFSA dashboards are publicly available as online interactive tools:
 
-## Ressources available in Member states
+-   For all data from 2015 to 2020 are available from this link: [Foodborne outbreaks report 2020 \| EFSA (europa.eu)](https://www.efsa.europa.eu/en/microstrategy/FBO-dashboard)
+
+-   *Salmonella:* [Salmonella dashboard \| EFSA (europa.eu)](https://www.efsa.europa.eu/en/microstrategy/salmonella-dashboard)
+
+-   *Listeria monocytogenes:* [Listeria dashboard \| EFSA (europa.eu)](https://www.efsa.europa.eu/en/microstrategy/listeria-dashboard)
+
+-   *Campylobacter:* [Campylobacter dashboard \| EFSA (europa.eu)](https://www.efsa.europa.eu/en/microstrategy/campylobacter-dashboard)
+
+## Resources available in Member states
 
 The information collected at European level is also reported by the EU Member States. Information available at national level can provide complementary information to that used at transnational level. The Table below lists the references to the data collected on the identified foodborne outbreaks (please do not hesitate to contact the authors of this report to provide missing or corrected information).
 
 | Country  | Access                                                                                                                                                                                                                                                                                                                    | Data        |
-|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+|---------|-------------------------------------------------------|---------|
 | France   | [https://www.santepubliquefrance.fr/](https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-infectieuses-d-origine-alimentaire/toxi-infections-alimentaires-collectives/documents/bulletin-national/surveillance-des-toxi-infections-alimentaires-collectives.-donnees-de-la-declaration-obligatoire-2020) | Pdf report  |
 | Belgique | [https://www.favv-afsca.be/](https://www.favv-afsca.be/activiteitenverslag/2020/voedseltoxiinfecties/)                                                                                                                                                                                                                    | Html report |
 |          |                                                                                                                                                                                                                                                                                                                           |             |
@@ -54,4 +70,4 @@ The information collected at European level is also reported by the EU Member St
 
 ## Relevant information related to EJP OH projects
 
-![](images/wip.png){width="177"}
+![](images/wip.png){width="100"}

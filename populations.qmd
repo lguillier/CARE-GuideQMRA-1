@@ -1,6 +1,6 @@
 # Populations
 
-![](images/populations.png){width="162"}
+![](images/populations.png){width="100"}
 
 Demographic data are essential for risk assessment, especially when the objective is to assess the risk at population level.
 
@@ -20,16 +20,42 @@ The assessment of the risk at the population level therefore depends on the dist
 
 ### Scope
 
-![](images/wip.png){width="177"}
+Eurostat is the statistical office of the European Union and has the mission to provide high-quality statistics and data on Europe and comparable at EU level. Nine statistical themes are available :
+
+-   General and regional statistics
+
+-   Economy and finance
+
+-   Population and social conditions
+
+-   Industries, trade and services
+
+-   Agriculture and fisheries
+
+-   International trade
+
+-   Transport
+
+-   Environnement and energy
+
+-   Science, technology, digital society
+
+Tables on EU policy and cross cutting topics are also available.
 
 ### Accessibility
 
-![](images/wip.png){width="177"}
+All the databases are available in the Eurostat data navigation tree (<https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes?lang=en>) and various visualization tools are at everyone's disposal (<https://ec.europa.eu/eurostat/web/main/data/data-visualisations>). 
+
+With the statistical atlas, the user can view the data on a map (@fig-Eurostat) ([Eurostat regional yearbook 2022 (europa.eu)](https://ec.europa.eu/statistical-atlas/viewer/?mids=BKGCNT,C01M02,CNTOVL&o=1,1,0.7&ch=PEO,C01&center=45.69864,12.05339,4&lcis=C01M02&)).
+
+![Eurostat statistical Atlas](images/eurostat_atlas.png){#fig-Eurostat alt="Eurostat statistical Atlas"}
 
 ## **Antimicrobial consumption database (ESAC-Net)**
 
 ### Scope
 
-The ESAC-Net rovides European reference data on antimicrobial consumption, both in the community and the hospital sector. The reports of the database are provided through the European Surveillance System (TESSy).
+The ESAC-Net provides European reference data on antimicrobial consumption, both in the community and the hospital sector. The reports of the database are provided through the European Surveillance System (TESSy).
 
 ### Accessibility
+
+https://qap.ecdc.europa.eu/public/extensions/AMC2_Dashboard/AMC2_Dashboard.html#eu-consumption-tab

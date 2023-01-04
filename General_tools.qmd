@@ -2,10 +2,46 @@
 
 ## FDA iRisk
 
+FDA-iRISK is a web based quantitative tool that can be used to assess risk for microbial and chemical hazards in food. FDA-iRISK uses a bottom-up approach, modelling the contamination throughout the steps in the food supply chain, to estimate different risk outputs (e.g. the probability of illness per serving, the total number of illnesses in the population, and the burden of disease).
+
+FDA-iRISK does not require any prior installation of software. It is accessible via a web. To acces FDA-iRISK and create an account, click on the link below:
+
+<https://irisk.foodrisk.org/Register.aspx>
+
 ## MicroHibro
+
+MicroHibrio is a tool for quantitative risks assessment that can be used for microbial hazard ([@cubero2019]). In MicrHibro, user can consider any steps in any food chain using four different microbial processes (growth, inactivation, transfer and partitioning). As a result, an estimate of the concentration and prevalence of microorganisms in the food of interest as well risk are provided. Also, MicroHibro allows comparing different predictive models and validate them by introducing user's data.
+
+MicroHibro is an online tool requiring no installation. User have to create an online account. One can create a account at the following link: <http://www.microhibro.com/accounts/register>
 
 ## RAKIP
 
+Te risk Assessment Modelling and Knowledge Integration Platform (RAKIP) Initiative aims at supporting researchers from food sector in their efforts to increase the transparency and reusability of experimental data and mathematical models ([@filter2022]). The RAKIP project created the following infrastructural resources to enable efficient exchange of domain-specific data and models:
+
+-   a file format called Food Safety Knowledge Exchange (FSKX) that allows for the exchange of executable models,
+
+-   a community-driven harmonized annotation schema for food safety knowledge (e.g. data and models), called Generic Metadata Schema (GMS). with integrated controlled vocabularies that make use of existing code lists and information exchange standards.
+
+-   A Minimum Information guideline Consultative Group on International Agricultural Research (CGIAR) called Minimum Information Required to Annotate Food Safety Risk Assessment Models (MIRARAM).
+
+-   A number of online repositories for the collection and execution of models were established, for example, the RAKIP-Web model repository
+
+To access to RAKIP tools:
+
+-   <https://foodrisklabs.bfr.bund.de/rakip-web-portal/>
+
+-   <https://knime.bfr.berlin/landingpage/RAKIP-Model-Repository>
+
 ## swift Quantitative Microbiological Risk Assessment
 
+The swift QMRA (sQMRA2) - model follows pathogen numbers through part of the food chain, starting at the retail phase, and ends with he estimated number of human cases of illness. The tool considers different inputs (Contaminated fraction, Microbial growth, Effect of storage, cross-contamination, cooking, dose-response and consumption data.
+
+The general setup pf the sQMRA2 tool consists of 14 consecutive (set of) questions for values of parameters and per phase detailed intermediate model output broken down into categories.
+
+The swift Quantitative Microbiological Risk Assessment (sQMRA2) tool is implemented in Microsoft Excel/\@Risk. the sQMRA version are accessible here: <https://www.foodrisk.org/resources/display/56>
+
 ## mc2d package
+
+mc2d is an r package for carrying out One- or Two-Dimensional Monte-Carlo simulation. This package provides: a set of probability distributions; tools construct and analyse One-Dimensional and Two-Dimensional Monte-Carlo Simulation.
+
+This package is available on CRAN - Package mc2d (r-project.org)

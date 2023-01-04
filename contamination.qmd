@@ -14,7 +14,7 @@ The European Union (EU) has been collecting for more than 20 years data on zoono
 
 ### Accessibility
 
-Overview tables (and or graphs) presenting all the countries that reported data during a five year time-frame are made available, with key summary statistics. These summary statistics only focus on official sampling. Thus they are taking into account other reported data:
+Overview tables (and or graphs) presenting all the countries that reported data during a five-year period are available, with key summary statistics focusing on official samplings. Thus, they take into account reported data:
 
 -   from industry own-control programmes,
 
